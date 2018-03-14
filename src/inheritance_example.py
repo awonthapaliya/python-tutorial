@@ -27,6 +27,7 @@ class Parent:
         print "Parent my Method called..."
 
 
+#Child can inherit parent by
 class Child(Parent):
     
     def __init__(self):

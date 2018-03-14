@@ -4,6 +4,7 @@ Created on Mar 14, 2018
 @author: awon
 '''
 
+# python reads 1 as TRUE and 0 AS FALSE
 
 def check_exist1(a):
     if(a == 'a'):
@@ -12,6 +13,7 @@ def check_exist1(a):
         return 0
     
 
+# None can be returned and is considered FALSE
 def check_exist2(a):
     if(a == 'a'):
         return True

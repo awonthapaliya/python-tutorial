@@ -3,6 +3,13 @@ Created on Mar 7, 2018
 
 @author: awon
 '''
+
+# dynamic variable's declaration
+# define functions using "def" key word
+# No need to define return value to function'
+# Indentation is very important
+# ":" is written after a conditional or loop statement
+
 def add(a,b):
     return a+b
 
@@ -23,8 +30,6 @@ def loop_test():
         print i
    
       
-
-
 
 def lower_case(a):
     return a.lower()
